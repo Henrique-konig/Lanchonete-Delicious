@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+
+.Menu{
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Menu h1{
+    margin-top: 35px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px;
+}
+
+.imagens img{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.imagens1{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imagens2{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fim{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
