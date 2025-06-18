@@ -50,14 +50,14 @@
     text-shadow: 1px 1px 2px;
 }
 
-.delivery {
+.retirar {
     text-align: center;
-    margin-top: -15px;
+    margin-top: 50px;
 }
 
-.delivery h2 {
+.retirar h2 {
     font-size: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     text-shadow: 1px 1px 2px;
     font-family: 'Times New Roman', Times, serif;
 }
