@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.Menu{
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Menu h1{
+    margin-top: 35px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inicio{
+    margin-top: 35px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px;
+}
+
+.cardapio{
+    margin-top: 35px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px;
+}
+
+.sobre{
+    margin-top: 35px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px;
+}
+
+.delivery {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.delivery h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.formulario label {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px;
+}
+
+.formulario input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #8c8585;
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.rodape img {
+    width: 100px;
+}
+
+.pagamento {
+    background-color: #8c8585;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.pagamento:hover {
+    background-color: #6e6a6a;
+}
