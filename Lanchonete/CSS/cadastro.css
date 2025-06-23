@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Menu h1 {
+    margin-top: 35px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inicio, .cardapio, .sobre {
+    margin-top: 35px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px;
+}
+
+.cadastro-container {
+    width: 400px;
+    background-color: bisque;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.cadastro-container h2 {
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px;
+}
+
+.cadastro-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cadastro-container label {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.cadastro-container input {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #8c8585;
+    color: white;
+
+}
+
+.concluir{
+    background-color: #8c8585;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.concluir:hover{
+    background-color: #6e6a6a;
+}
