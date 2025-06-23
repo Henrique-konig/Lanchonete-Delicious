@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.Menu{
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Menu h1{
+    margin-top: 35px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inicio{
+    margin-top: 35px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px;
+}
+
+.cardapio{
+    margin-top: 35px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px;
+}
+
+.sobre{
+    margin-top: 35px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px;
+}
+
+.seja-cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.titulo-cliente {
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 40px;
+}
+
+.botao-cliente {
+    width: 300px;
+    padding: 20px;
+    margin: 15px 0;
+    background-color: #807878;
+    color: black;
+    font-size: 25px;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.botao-cliente.selecionado {
+    background-color: #807878;
+}
+
+.botoes-inferiores {
+    margin-top: 150px;
+}
+
+.voltar {
+    background-color: #807878;
+    color: black;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
