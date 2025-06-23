@@ -119,3 +119,18 @@
     background-color: #555;
     color: white;
 }
+.botoes-inferiores {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.voltar {
+    background-color: #807878;
+    color: black;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
