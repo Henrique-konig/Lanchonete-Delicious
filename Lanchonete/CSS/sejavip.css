@@ -102,23 +102,6 @@
     color: #ddd;
 }
 
-.botao {
-    margin-top: 50px;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 6px;
-    background-color: gray;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    cursor: pointer;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-}
-
-.botao:hover {
-    background-color: #555;
-    color: white;
-}
 .botoes-inferiores {
     margin-top: 150px;
     text-align: center;
@@ -133,4 +116,9 @@
     border: none;
     cursor: pointer;
     text-decoration: none;
+}
+
+.voltar:hover{
+    background-color: #555;
+    color: white;
 }

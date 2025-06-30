@@ -77,22 +77,4 @@
     border-radius: 8px;
     background-color: #8c8585;
     color: white;
-
-}
-
-.concluir{
-    background-color: #8c8585;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.concluir:hover{
-    background-color: #6e6a6a;
 }
