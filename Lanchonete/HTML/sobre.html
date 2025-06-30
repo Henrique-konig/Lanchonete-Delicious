@@ -4,39 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
-    <link rel="stylesheet" href="../CSS/sobre.css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        .Menu h1, .inicio, .cardapio, .sobre {
+            font-size: 30px;
+            text-shadow: 1px 1px 2px;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            text-decoration: none;
+        }
+
+        .cardapiotodo {
+            margin-top: 15px;
+            font-size: 45px;
+            text-shadow: 1px 1px 2px;
+            text-align: center;
+            color: black;
+        }
+
+        .descricao {
+            background-color: #f2debd;
+            color: #000;
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            max-width: 800px;
+            margin: 40px auto;
+            line-height: 1.6;
+            padding: 10px 20px;
+        }
+
+        .imagemfim {
+            margin-top: -30px;
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 <body>
-    <section class = "Menu">
-        <img class = "logo" src="https://files.menudino.com/cardapios/30627/logo.png">
-        <h1 class = "nomelanchonete">Lanchonete Burgers Delicious</h1>
-        <a href ="index.html" class = "inicio" >Início</a>
-        <a href = cardapio.html class = "cardapio" >Cardápio</a>
-        <a href = sobre.html class = "sobre" >Sobre</a>
+    <section class="Menu d-flex justify-content-around align-items-center">
+        <img class="logo" src="https://files.menudino.com/cardapios/30627/logo.png" alt="Logo">
+        <h1 class="nomelanchonete">Lanchonete Burgers Delicious</h1>
+        <a href="index.html" class="inicio">Início</a>
+        <a href="cardapio.html" class="cardapio">Cardápio</a>
+        <a href="sobre.html" class="sobre">Sobre</a>
     </section>
+
     <div>
-        <h1 class = cardapiotodo>SOBRE</h1>
+        <h1 class="cardapiotodo">SOBRE</h1>
     </div>
 
     <section class="descricao">
         <p>
-          Na nossa lanchonete, cada lanche conta uma história — de sabor, carinho e tradição.<br>
-          Desde o primeiro dia, nosso compromisso sempre foi oferecer uma experiência deliciosa, acessível e acolhedora para todos que entram por nossas portas.
+            Na nossa lanchonete, cada lanche conta uma história — de sabor, carinho e tradição.<br>
+            Desde o primeiro dia, nosso compromisso sempre foi oferecer uma experiência deliciosa, acessível e acolhedora para todos que entram por nossas portas.
         </p>
         <p>
-          Trabalhamos com ingredientes selecionados, preparados com muito cuidado, para garantir que cada mordida seja inesquecível.<br>
-          Nosso cardápio foi pensado para agradar todos os gostos — dos clássicos<br>
-          irresistíveis aos sabores únicos que só você encontra aqui.
+            Trabalhamos com ingredientes selecionados, preparados com muito cuidado, para garantir que cada mordida seja inesquecível.<br>
+            Nosso cardápio foi pensado para agradar todos os gostos — dos clássicos<br>
+            irresistíveis aos sabores únicos que só você encontra aqui.
         </p>
         <p>
-          Mais do que uma lanchonete, somos um ponto de encontro.<br>
-          Um lugar para saborearmos momentos, reunir amigos, matar a fome e alimentar sorrisos.<br>
-          Se você ainda não nos conhece, venha experimentar. Se já conhece, sinta-se sempre em casa.
+            Mais do que uma lanchonete, somos um ponto de encontro.<br>
+            Um lugar para saborearmos momentos, reunir amigos, matar a fome e alimentar sorrisos.<br>
+            Se você ainda não nos conhece, venha experimentar. Se já conhece, sinta-se sempre em casa.
         </p>
-      </section>
-      <section class = "fimsobre">
-        <img class = "imagemfim" src="https://files.menudino.com/cardapios/30627/logo.png" alt="logo">
-      </section>
+    </section>
+
+    <section class="fimsobre">
+        <img class="imagemfim" src="https://files.menudino.com/cardapios/30627/logo.png" alt="Logo">
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
