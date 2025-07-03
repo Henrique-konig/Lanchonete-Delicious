@@ -28,6 +28,12 @@
       font-family: 'Times New Roman', Times, serif;
       text-shadow: 1px 1px 2px;
       margin-top: 35px;
+      transition: transform 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+    }
+    .menu-title:hover{
+      transform: scale(1.2) translateY(-5px);
+      color: #858d96;
     }
 
     .menu-link {
@@ -36,6 +42,12 @@
       color: black;
       text-shadow: 1px 1px 2px;
       margin-top: 35px;
+      transition: transform 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+    }
+    .menu-link:hover{
+      transform: scale(1.2) translateY(-5px);
+      color: #858d96;
     }
 
     .seja-cliente {
@@ -67,16 +79,22 @@
       text-decoration: none;
       display: inline-block;
     }
-
+    .botao-cliente:hover {
+      background-color: #333;
+      color: rgb(255, 255, 255);
+    }
     .botao-cliente.selecionado {
-      background-color: #5a5353;
-      color: white;
+      background-color: #807878;
+      color: rgb(0, 0, 0);
     }
 
     .botoes-inferiores {
       margin-top: 150px;
     }
-
+    .botao-cliente.selecionado:hover {
+      background-color: #333;
+      color: rgb(255, 255, 255);
+    }
     .voltar {
       background-color: #807878;
       color: black;
@@ -86,6 +104,10 @@
       border: none;
       cursor: pointer;
       text-decoration: none;
+    }
+    .voltar:hover{
+      background-color: #333;
+      color: white;
     }
   </style>
 </head>
