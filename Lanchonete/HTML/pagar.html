@@ -14,6 +14,7 @@
     .menu-logo {
       width: 100px;
       height: 100px;
+      margin-top: 5px;
     }
 
     .menu-title {
@@ -32,7 +33,8 @@
       transition: transform 0.3s ease, color 0.3s ease;
       cursor: pointer;
     }
-    .menu-link:hover{
+
+    .menu-link:hover {
       transform: scale(1.2) translateY(-5px);
       color: #858d96;
     }
@@ -47,17 +49,13 @@
       width: 200px;
       height: 200px;
     }
-
-    .menu-bar {
-      background-color: bisque;
-    }
   </style>
 </head>
 <body>
-  <section class="d-flex justify-content-around align-items-center py-3 menu-bar">
+  <section class="d-flex justify-content-around align-items-center py-3">
     <img class="menu-logo" src="https://files.menudino.com/cardapios/30627/logo.png" alt="Logo">
     <h1 class="menu-title">Lanchonete Burgers Delicious</h1>
-    <div class="d-flex">
+    <div class="d-flex gap-4">
       <a href="index.html" class="menu-link">Início</a>
       <a href="cardapio.html" class="menu-link">Cardápio</a>
       <a href="sobre.html" class="menu-link">Sobre</a>
