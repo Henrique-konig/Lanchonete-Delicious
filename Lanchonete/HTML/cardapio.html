@@ -1,89 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio</title>
-    <link rel="stylesheet" href="../CSS/cardapio.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cardápio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background-color: bisque;
+      font-family: Arial, sans-serif;
+    }
+
+    .menu-logo {
+      width: 100px;
+      height: 100px;
+      margin-top: 5px;
+    }
+
+    .menu-title {
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      text-shadow: 1px 1px 2px;
+      margin-top: 35px;
+    }
+
+    .menu-link {
+      font-size: 30px;
+      text-decoration: none;
+      color: black;
+      text-shadow: 1px 1px 2px;
+      margin-top: 35px;
+    }
+
+    .cardapiotodo {
+      font-size: 45px;
+      text-shadow: 1px 1px 2px;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .opcoes h1 {
+      font-size: 28px;
+      text-shadow: 1px 1px 2px;
+    }
+
+    .item-row h4 {
+      font-size: 18px;
+    }
+
+    .pedidos a {
+      font-size: 30px;
+      text-decoration: none;
+      color: black;
+      text-shadow: 1px 1px 2px;
+    }
+  </style>
 </head>
 <body>
-    <section class = "Menu">
-        <img class = "logo" src="https://files.menudino.com/cardapios/30627/logo.png">
-        <h1 class = "nomelanchonete">Lanchonete Burgers Delicious</h1>
-        <a href ="index.html" class = "inicio" >Início</a>
-        <a href = cardapio.html class = "cardapio" >Cardápio</a>
-        <a href = sobre.html class = "sobre" >Sobre</a>
-    </section>
-    <section>
-        <div>
-            <h1 class = cardapiotodo>CARDÁPIO</h1>
-        </div>
-        <div class = "opcoes">
-            <h1>LANCHES</h1>
-            <h1>PORÇÕES</h1>
-            <h1>SOBREMESA</h1>
-            <h1>BEBIDA</h1>
-        </div>
-        <div class = "primeira">
-            <h4>X Bacon R$25,00</h4>
-            <h4>Porção Mista R$49,90</h4>
-            <h4>Petit Gâteau com Sorvete R$22,90</h4>
-            <h4>Refrigerante Lata R$5,00</h4>
-        </div>
-        <div class = "segunda">
-            <h4>X Salada R$23,00</h4>
-            <h4>Porção Simples R$36,90</h4>
-            <h4>Açaí na Tigela 300ml R$15,00</h4>
-            <h4>Refrigerante 600ml R$8,00</h4>
-        </div>
-        <div class = "terceira">
-            <h4>X Calabresa R$26,00</h4>
-            <h4>Fritas 300g R$18,00</h4>
-            <h4>Brownie com Sorvete R$18,90</h4>
-            <h4>Refrigerante 1L R$11,00</h4>
-        </div>
-        <div class = "quarta">
-            <h4>X Frango R$25,00</h4>
-            <h4>Fritas 600g R$28,00</h4>
-            <h4>Taça Trufada R$19,90</h4>
-            <h4>Refrigerante 1,5L R$13,00</h4>
-        </div>
-        <div class = "quinta">
-            <h4>X Burger R$17,00</h4>
-            <h4>Fritas com Bacon 300g R$22,00</h4>
-            <h4>Pudim de leite Condensado R$10,00</h4>
-            <h4>Refrigerante 2L R$15,00</h4>
-        </div>
-        <div class = "sexta">
-            <h4>X Egg R$24,00</h4>
-            <h4>Fritas com Bacon 600g R$32,00</h4>
-            <h4>Churros Recheados R$12,00</h4>
-            <h4>Suco 300ml R$4,00</h4>
-        </div>
-        <div class = "setima">
-            <h4>X Alcatra R$ 26,00</h4>
-            <h4>Fritas com Cheddar 300g R$22,00</h4>
-            <h4>Crepe Doce R$ 16,00</h4>
-            <h4>Suco 600ml R$7,00</h4>
-        </div>
-        <div class = "oitava">
-            <h4>X Dorritos R$27,00</h4>
-            <h4>Fritas com Cheddar 600g R$32,00</h4>
-            <h4>Taça de Sorvete Especial R$20,00</h4>
-            <h4>Cerveja lata R$6,00</h4>
-        </div>
-        <div class = "nona">
-            <h4>X Tudo R$30,00</h4>
-            <h4>Porção de Peixe 600g R$47,90</h4>
-            <h4>MilkShake 500ml R$15,00</h4>
-            <h4>Chopp R$7,00</h4>
-        </div>
-    </section>
-    <section>
-        <div class = "pedidos">
-            <a href = "delivery.html" class = "delivery">Peça Delivery</a>
-            <a href = "fazerpedido.html" class = "fazerpedido">Fazer pedido e retirar</a>
-        </div>
-    </section>
+
+  <section class="d-flex justify-content-around align-items-center py-3">
+    <img class="menu-logo" src="https://files.menudino.com/cardapios/30627/logo.png" alt="Logo">
+    <h1 class="menu-title">Lanchonete Burgers Delicious</h1>
+    <div class="d-flex gap-4">
+      <a href="index.html" class="menu-link">Início</a>
+      <a href="cardapio.html" class="menu-link">Cardápio</a>
+      <a href="sobre.html" class="menu-link">Sobre</a>
+    </div>
+  </section>
+
+  <section class="container">
+    <h1 class="cardapiotodo">CARDÁPIO</h1>
+
+    <div class="d-flex justify-content-around mt-4 opcoes">
+      <h1>LANCHES</h1>
+      <h1>PORÇÕES</h1>
+      <h1>SOBREMESA</h1>
+      <h1>BEBIDA</h1>
+    </div>
+
+    <div class="item-row d-flex justify-content-around mt-3"><h4>X Bacon R$25,00</h4><h4>Porção Mista R$49,90</h4><h4>Petit Gâteau com Sorvete R$22,90</h4><h4>Refrigerante Lata R$5,00</h4></div>
+    <div class="item-row d-flex justify-content-around mt-3"><h4>X Salada R$23,00</h4><h4>Porção Simples R$36,90</h4><h4>Açaí na Tigela 300ml R$15,00</h4><h4>Refrigerante 600ml R$8,00</h4></div>
+    <div class="item-row d-flex justify-content-around mt-3"><h4>X Calabresa R$26,00</h4><h4>Fritas 300g R$18,00</h4><h4>Brownie com Sorvete R$18,90</h4><h4>Refrigerante 1L R$11,00</h4></div>
+    <div class="item-row d-flex justify-content-around mt-3"><h4>X Frango R$25,00</h4><h4>Fritas 600g R$28,00</h4><h4>Taça Trufada R$19,90</h4><h4>Refrigerante 1,5L R$13,00</h4></div>
+    <div class="item-row d-flex justify-content-around mt-3"><h4>X Burger R$17,00</h4><h4>Fritas com Bacon 300g R$22,00</h4><h4>Pudim de Leite Condensado R$10,00</h4><h4>Refrigerante 2L R$15,00</h4></div>
+    <div class="item-row d-flex justify-content-around mt-3"><h4>X Egg R$24,00</h4><h4>Fritas com Bacon 600g R$32,00</h4><h4>Churros Recheados R$12,00</h4><h4>Suco 300ml R$4,00</h4></div>
+    <div class="item-row d-flex justify-content-around mt-3"><h4>X Alcatra R$26,00</h4><h4>Fritas com Cheddar 300g R$22,00</h4><h4>Crepe Doce R$16,00</h4><h4>Suco 600ml R$7,00</h4></div>
+    <div class="item-row d-flex justify-content-around mt-3"><h4>X Dorritos R$27,00</h4><h4>Fritas com Cheddar 600g R$32,00</h4><h4>Taça de Sorvete Especial R$20,00</h4><h4>Cerveja Lata R$6,00</h4></div>
+    <div class="item-row d-flex justify-content-around mt-3"><h4>X Tudo R$30,00</h4><h4>Porção de Peixe 600g R$47,90</h4><h4>MilkShake 500ml R$15,00</h4><h4>Chopp R$7,00</h4></div>
+  </section>
+
+  <section class="pedidos d-flex justify-content-around mt-5">
+    <a href="delivery.html" class="delivery">Peça Delivery</a>
+    <a href="fazerpedido.html" class="fazerpedido">Fazer pedido e retirar</a>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
