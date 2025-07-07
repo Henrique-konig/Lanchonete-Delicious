@@ -39,6 +39,7 @@
       transition: transform 0.3s ease, color 0.3s ease;
       cursor: pointer;
     }
+
     .menu-link:hover {
       transform: scale(1.2) translateY(-5px);
       color: #858d96;
@@ -88,6 +89,7 @@
       transition: background-color 0.3s;
       display: inline-block;
       margin-top: 30px;
+      border: none;
     }
 
     .pagamento:hover {
@@ -109,11 +111,11 @@
 
   <section class="retirar container">
     <h2>RETIRAR PEDIDO</h2>
-    <form class="mx-auto" style="max-width: 400px;">
+    <form class="mx-auto" style="max-width: 400px;" action="pagamento.html">
       <div class="mb-3 text-start">
         <label for="lanche" class="form-label">Lanches:</label>
-        <select class="form-control" id="lanche">
-          <option disabled selected>Selecione um lanche</option>
+        <select class="form-control" id="lanche" required>
+          <option value="" disabled selected>Selecione um lanche</option>
           <option>X Bacon R$25,00</option>
           <option>X Salada R$23,00</option>
           <option>X Calabresa R$26,00</option>
@@ -128,8 +130,8 @@
 
       <div class="mb-3 text-start">
         <label for="porcao" class="form-label">Porções:</label>
-        <select class="form-control" id="porcao">
-          <option disabled selected>Selecione uma porção</option>
+        <select class="form-control" id="porcao" required>
+          <option value="" disabled selected>Selecione uma porção</option>
           <option>Porção Mista R$49,90</option>
           <option>Porção Simples R$36,90</option>
           <option>Fritas 300g R$18,00</option>
@@ -144,8 +146,8 @@
 
       <div class="mb-3 text-start">
         <label for="sobremesa" class="form-label">Sobremesa:</label>
-        <select class="form-control" id="sobremesa">
-          <option disabled selected>Selecione uma sobremesa</option>
+        <select class="form-control" id="sobremesa" required>
+          <option value="" disabled selected>Selecione uma sobremesa</option>
           <option>Petit Gâteau com Sorvete R$22,90</option>
           <option>Açaí na Tigela 300ml R$15,00</option>
           <option>Brownie com Sorvete R$18,90</option>
@@ -160,8 +162,8 @@
 
       <div class="mb-3 text-start">
         <label for="bebida" class="form-label">Bebidas:</label>
-        <select class="form-control" id="bebida">
-          <option disabled selected>Selecione uma bebida</option>
+        <select class="form-control" id="bebida" required>
+          <option value="" disabled selected>Selecione uma bebida</option>
           <option>Refrigerante Lata R$5,00</option>
           <option>Refrigerante 600ml R$8,00</option>
           <option>Refrigerante 1L R$11,00</option>
@@ -174,7 +176,7 @@
         </select>
       </div>
 
-      <a href="pagamento.html" class="pagamento">PAGAMENTO</a>
+      <button type="submit" class="pagamento">PAGAMENTO</button>
     </form>
   </section>
 
